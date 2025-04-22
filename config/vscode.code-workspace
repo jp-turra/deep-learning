@@ -1,0 +1,27 @@
+{
+    "extensions": {
+        "recommendations": [
+            "Codeium.codeium",
+            "ms-python.python",
+            "ms-python.vscode-pylance",
+            "ms-python.debugpy",
+            "ms-python.black-formatter"
+        ]
+    },
+    "folders": [
+        {
+            "path": "../",
+            "name": "Deep Learning"
+        }
+    ],
+    "settings": {
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true,
+        "editor.formatOnSave": true,
+        "files.autoSave": "afterDelay",
+        "files.autoSaveDelay": 2000,
+        "[python]": {
+            "editor.defaultFormatter": "ms-python.black-formatter"
+        },
+    }
+}
