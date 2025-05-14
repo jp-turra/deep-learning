@@ -10,4 +10,10 @@ start_jupyter_kernel() {
     fi
 }
 
+# Function to setup kaggle credentials
+setup_kaggle_credentials() {
+    . $project_dir/tools/setup_kaggle_keys_from_json.sh
+}
+
+setup_kaggle_credentials
 start_jupyter_kernel
